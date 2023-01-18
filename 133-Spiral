@@ -1,0 +1,81 @@
+<!-- view in vs code with cmd + shift + v -->
+<!doctype html>
+<html>
+  <head>
+    <title>Challenge #133 Spiral</title>
+  </head>
+  <body>
+    <div class="spiral" id="one"></div>
+    <div class="spiral" id="two"></div>
+    <div class="spiral" id="three"></div>
+    <div class="spiral" id="four"></div>
+    <div class="rounded" id="r-one"></div>
+    <div class="rounded" id="r-two"></div>
+    <style>
+      body {
+        background: #F5D6B4;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+      }
+      .spiral {
+        background: transparent;
+        border-radius: 100px 100px 0 0;
+        border-left: 20px solid #D86F45;
+        border-right: 20px solid #D86F45;
+        border-top: 20px solid #D86F45;
+        position: absolute;
+      }
+      .rounded {
+        height: 10px;
+        width: 20px;
+        background: #D86F45;
+        border-radius: 100px 100px 0 0;
+        position: absolute;
+      }
+      #one {
+        height: 20px;
+        width: 40px;
+        left: 160px;
+        top: 110px; 
+      }
+      #two {
+        height: 60px;
+        width: 120px;
+        left: 120px;
+        top: 70px; 
+      }
+      #three {
+        transform: rotate(-180deg);
+        height: 80px;
+        width: 160px;
+        left: 80px;
+        top: 150px; 
+      }
+      #four {
+        transform: rotate(-180deg);
+        height: 40px;
+        width: 80px;
+        left: 120px;
+        top: 150px; 
+      }
+      #r-one {
+        transform: rotate(-180deg);
+        left: 160px;
+        top: 150px;
+      }
+      #r-two {
+        left: 80px;
+        top: 140px;
+      }
+    </style>
+  </body>
+</html>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
