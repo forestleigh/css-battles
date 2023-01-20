@@ -1,0 +1,106 @@
+<!-- view in vs code with cmd + shift + v -->
+<!doctype html>
+<html>
+  <head>
+    <title>Challenge #133 Spiral</title>
+  </head>
+  <body>
+    <div class='white-line' id='w-one'></div>
+    <div class='white-line' id='w-two'></div>
+    <div class='white-line' id='w-three'></div>
+    <div class='pink-line' id='p-one'></div>
+    <div class='pink-line' id='p-two'></div>
+    <div class='pink-line' id='p-three'></div>
+    <div class='rounded-left' id='left-one'></div>
+    <div class='rounded-left' id='left-two'></div>
+    <div class='rounded-left' id='left-three'></div>
+    <div class='rounded-right' id='right-one'></div>
+    <div class='rounded-right' id='right-two'></div>
+    <div class='rounded-right' id='right-three'></div>
+    <style>
+      body {
+        background: #000000;
+      }
+      .white-line {
+        width: 20px;
+        height: 50px;
+        background: #FFFFFF;
+        position: absolute;
+      }
+      #w-one {
+        left: 80px;
+        top: 100px;
+      }
+      #w-two {
+        left: 190px;
+        top: 150px;
+      }
+      #w-three {
+        height: 100px;
+        left: 300px;
+        top: 100px;
+      }
+      .pink-line {
+        width: 280px;
+        height: 20px;
+        background: #AF067C;
+        position: absolute;
+      }
+      #p-one {
+        top: 90px;
+        left: 60px;
+      }
+      #p-two {
+        top: 190px;
+        left: 60px;
+      }
+      #p-three {
+        top: 140px;
+        left: 60px;
+        transform: rotate(-4deg);
+      }
+      .rounded-right {
+        width: 20px;
+        height: 20px;
+        background: #AF067C;
+        position: absolute;
+        left: 330px;
+        border-radius: 0 150px 150px 0;
+      }
+      .rounded-left {
+        width: 20px;
+        height: 20px;
+        background: #AF067C;
+        position: absolute;
+        left: 50px;
+        border-radius: 150px 0  0 150px;
+      }
+      #right-one {
+        top: 190px;
+      }
+      #right-two {
+        top: 130px;
+      }
+      #right-three {
+        top: 90px;
+      }
+      #left-one {
+        top: 90px;
+      }
+      #left-two {
+        top: 150px;
+      }
+      #left-three {
+        top: 190px;
+      }
+    </style>
+  </body>
+</html>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
