@@ -1,0 +1,53 @@
+<!-- view in vs code with cmd + shift + v -->
+<!doctype html>
+<html>
+  <head>
+    <title>Challenge #133 Spiral</title>
+  </head>
+  <body>
+    <div class='circle'></div>
+    <div class='wing' id='w-one'></div>
+    <div class='wing' id='w-two'></div>
+    <style>
+      body {
+        width: 100%;
+        height: 100%;
+        background: #62306D;
+      }
+      .circle {
+        width: 160px;
+        height: 120px;
+        background: #F7EC7D;
+        border-radius: 150px 150px 0 0;
+        position: absolute;
+        top: 70px;
+        left: 120px;
+      }
+      .wing {
+        width: 85px;
+        background: #F7EC7D;
+        border-radius: 150px 150px 0 0;
+        position: absolute;
+        height: 80px;
+      }
+      #w-one {
+        transform: rotate(90deg);
+        left:118px;
+        top: 148px;
+      }
+      #w-two {
+        transform: rotate(-90deg);
+        right:118px;
+        top: 148px;
+      }
+    </style>
+  </body>
+</html>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
