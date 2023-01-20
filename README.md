@@ -15,4 +15,4 @@ Challenge replicate a given target image using only HTML/CSS in the least code p
 ![img donkey kong challenge](/assets/donkey-kong.png "100% match")
 
 ## Challenge #110: The Sunraysg
-![img sunrays challenge](/assets/sunrays.png "used svg by accident"
+![img sunrays challenge](/assets/sunrays.png "used svg by accident")
