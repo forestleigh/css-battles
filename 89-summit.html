@@ -1,0 +1,58 @@
+<!-- view in vs code with cmd + shift + v -->
+<!doctype html>
+<html>
+
+<head>
+  <title>Challenge #133 Spiral</title>
+</head>
+
+<body>
+  div id='circle'></div>
+  <div id='triangle'></div>
+  <style>
+    body {
+      background: #191919;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 0 0 0;
+    }
+
+    #circle {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: #F9E492;
+    }
+
+    #triangle {
+      position: absolute;
+      bottom: -9;
+      width: 300px;
+      height: 150px;
+      background: #4f77ff;
+      clip-path: polygon(50% 0, 0% 100%, 100% 100%);
+    }
+
+    #triangle::after {
+      position: absolute;
+      left: 50%;
+      width: 200px;
+      height: 200px;
+      content: "";
+      background: #191919;
+      transform: translate(-50%, -109px);
+      border-radius: 50%;
+    }
+  </style>
+</body>
+
+</html>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
